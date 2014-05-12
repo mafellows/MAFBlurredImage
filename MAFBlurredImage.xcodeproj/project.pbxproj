@@ -11,6 +11,8 @@
 		4619A8CFA19744FE8936257E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81FF7F0972D4402BA6968E2 /* UIKit.framework */; };
 		503B82A16E2647F39B3554B1 /* MAFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD50C95E6C8F4A84B657F9C3 /* MAFAppDelegate.m */; };
 		8183646360BE47A4B15E2707 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083F0C90A9CF44C4891D4FB5 /* Images.xcassets */; };
+		8FAC278B192122DD00E52C29 /* UIImageView+MAFBlurredImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC278A192122DD00E52C29 /* UIImageView+MAFBlurredImage.m */; };
+		8FAC278E1921233A00E52C29 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC278D1921233A00E52C29 /* UIImage+ImageEffects.m */; };
 		9291A0E45A8B43C3A3E26309 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAB013A06D948BA9DF07B97 /* XCTest.framework */; };
 		B44FE406C4C342F5885A8E52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA48B33072E431B8B9799BD /* CoreGraphics.framework */; };
 		DC77124112AF42DE9600FF2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8880D529DF42719BE4439E /* main.m */; };
@@ -32,6 +34,10 @@
 		4AAB013A06D948BA9DF07B97 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4DD1E8FEA434413CB1A83FAC /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		5B8880D529DF42719BE4439E /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FAC2789192122DD00E52C29 /* UIImageView+MAFBlurredImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MAFBlurredImage.h"; sourceTree = "<group>"; };
+		8FAC278A192122DD00E52C29 /* UIImageView+MAFBlurredImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MAFBlurredImage.m"; sourceTree = "<group>"; };
+		8FAC278C1921233A00E52C29 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		8FAC278D1921233A00E52C29 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		92F1E78B6AA34A8C9E5BCEF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9CA48B33072E431B8B9799BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		AD50C95E6C8F4A84B657F9C3 /* MAFAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAFAppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +74,10 @@
 		07071F82792E464499588165 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				8FAC278C1921233A00E52C29 /* UIImage+ImageEffects.h */,
+				8FAC278D1921233A00E52C29 /* UIImage+ImageEffects.m */,
+				8FAC2789192122DD00E52C29 /* UIImageView+MAFBlurredImage.h */,
+				8FAC278A192122DD00E52C29 /* UIImageView+MAFBlurredImage.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -355,7 +365,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FAC278E1921233A00E52C29 /* UIImage+ImageEffects.m in Sources */,
 				503B82A16E2647F39B3554B1 /* MAFAppDelegate.m in Sources */,
+				8FAC278B192122DD00E52C29 /* UIImageView+MAFBlurredImage.m in Sources */,
 				DC77124112AF42DE9600FF2A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
