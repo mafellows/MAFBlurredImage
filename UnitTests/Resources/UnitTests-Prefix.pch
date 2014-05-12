@@ -1,0 +1,4 @@
+#import "MAFBlurredImage-Prefix.pch"
+
+#ifdef __OBJC__
+#endif
